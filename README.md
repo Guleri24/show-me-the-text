@@ -1,5 +1,6 @@
 # Show Me The Text [![Just Perfection on extensions.gnome.org](resources/ego.svg)](https://extensions.gnome.org/extension/5556/show-me-the-text/)
 
+
 ![Show Me The Text GNOME Shell Extension](resources/intro.png)
 
 A GNOME extension to show the desired text on the right-hand side of the top bar.
