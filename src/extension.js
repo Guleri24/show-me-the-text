@@ -77,7 +77,6 @@ class Extension {
     }
 
     enable() {
-        log(`enabling ${Me.metadata.name}`);
 
         this._settings = ExtensionUtils.getSettings('org.gnome.shell.extensions.showmethetext');
 
@@ -99,14 +98,12 @@ class Extension {
     }
 
     disable() {
-        log(`disabling ${Me.metadata.name}`);
         this._indicator.destroy();
         this._indicator = null;
     }
 }
 
 function init(meta) {
-    log(`initializing ${Me.metadata.name}`);
     return new Extension();
 }
 
