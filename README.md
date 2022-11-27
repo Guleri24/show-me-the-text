@@ -6,6 +6,13 @@ A GNOME extension to show the desired text on the right-hand side of the top bar
 
 ## Install
 
+### GNOME Extensions Website
+
+This extension is available on [GNOME Extensions Website](https://extensions.gnome.org/extension/5556/show-me-the-text/).
+
+[![Just Perfection on extensions.gnome.org](resources/ego.svg)](https://extensions.gnome.org/extension/5556/show-me-the-text/)
+
+
 ### Manually
 You can download this repo and install it manually with the build script:
 
