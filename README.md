@@ -7,12 +7,12 @@ A GNOME extension to show the desired text on the right-hand side of the top bar
 ## Install
 
 ### Manually
+You can download this repo and install it manually with the build script:
 
-1. Download the repo.
-2. Place the folder in `.local/share/gnome-shell/extensions/`
-3. cd into the extension and run `glib-compile-schemas schemas/`
-4. Done, now log out to see the effects.
-
+```bash
+$ ./scripts/build.sh -i
+```
+*You need gettext package installed on your system*
 ## To change the text:
 
 1. Open the `Extensions` application

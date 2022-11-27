@@ -1,5 +1,6 @@
 #!/bin/bash
-
+# Script to build the extension zip and install the package
+# Inspired from https://gitlab.gnome.org/jrahmatzadeh/just-perfection/-/blob/main/scripts/build.sh
 set -e
 
 # cd to the repo root
