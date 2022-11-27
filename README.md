@@ -1,0 +1,27 @@
+# Show Me The Text GNOME Shell Extension
+
+![Show Me The Text GNOME Shell Extension](resources/intro.png)
+
+A GNOME extension to show the desired text on the right-hand side of the top bar.
+
+## Install
+
+### Manually
+
+1. Download the repo.
+2. Place the folder in `.local/share/gnome-shell/extensions/`
+3. cd into the extension and run `glib-compile-schemas schemas/`
+4. Done, now log out to see the effects.
+
+## To change the text:
+
+1. Open the `Extensions` application
+2. Find the `Show Me The Text` extension
+3. Open the `Settings` option
+
+![preference menu](resources/preference.png)
+
+
+
+
+

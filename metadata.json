@@ -1,0 +1,10 @@
+{
+  "name": "Show Me The Text",
+  "description": "Shows desired text on the top bar ;-)",
+  "uuid": "showmethetext@Guleri24.github.com",
+  "settings-schema": "org.gnome.shell.extensions.showmethetext",
+  "shell-version": [
+    "43",
+    "42"
+  ]
+}

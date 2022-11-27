@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="org.gnome.shell.extensions.showmethetext" path="/org/gnome/shell/extensions/showmethetext/">
+        <key name="text" type="s">
+            <default>'Live Longer If You Can!'</default>
+            <summary>Add text to display</summary>
+            <description>Add a text to be displayed on the top bar in the right side</description>
+        </key>
+    </schema>
+</schemalist>
