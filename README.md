@@ -25,11 +25,15 @@ You can download this repo and install it manually with the build script:
 
 **Fedora**
 
-`dnf install gettext`
+```bash
+dnf install gettext
+```
     
 **Ubuntu**
 
-`apt install gettext`
+```bash
+apt install gettext
+```
 
 ## To change the text:
 
