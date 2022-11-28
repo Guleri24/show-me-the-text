@@ -1,4 +1,5 @@
-# Show Me The Text [![Just Perfection on extensions.gnome.org](resources/ego.svg)](https://extensions.gnome.org/extension/5556/show-me-the-text/)
+# Show Me The Text
+[![Just Perfection on extensions.gnome.org](resources/ego.svg)](https://extensions.gnome.org/extension/5556/show-me-the-text/)
 
 
 ![Show Me The Text GNOME Shell Extension](resources/demo.png)
@@ -22,8 +23,13 @@ You can download this repo and install it manually with the build script:
 
 *You need gettext package installed on your system*
 
-    Fedora: dnf install gettext
-    Ubuntu: apt install gettext
+**Fedora**
+
+`dnf install gettext`
+    
+**Ubuntu**
+
+`apt install gettext`
 
 ## To change the text:
 
