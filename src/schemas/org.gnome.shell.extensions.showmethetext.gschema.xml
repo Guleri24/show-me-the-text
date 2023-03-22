@@ -6,5 +6,10 @@
             <summary>Add text to display</summary>
             <description>Add a text to be displayed on the top bar in the right side</description>
         </key>
+        <key name="alt-text" type="s">
+            <default>'Life Is Cool!'</default>
+            <summary>Add text to display</summary>
+            <description>Add a text to be displayed on the top bar in the right side</description>
+        </key>
     </schema>
 </schemalist>

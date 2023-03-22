@@ -38,8 +38,7 @@ const Indicator = GObject.registerClass(
                 text: 'Live Longer If You Can!',
                 y_align: Clutter.ActorAlign.CENTER,
                 style_class: 'panel-button',
-//                    track_hover: false,
-//                    reactive: false
+
             });
 
             this.add_child(this._label);
@@ -74,6 +73,7 @@ class Extension {
 
     _setText() {
         TEXT = this._settings.get_string('text');
+        ALT_TEXT = this._settings.get_string('alt-text');
     }
 
     enable() {
