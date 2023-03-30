@@ -27,7 +27,7 @@ const Main = imports.ui.main;
 const PanelMenu = imports.ui.panelMenu;
 
 TEXT = 'Live Longer If You Can!';
-ALT_TEXT = 'gg';
+ALT_TEXT = 'Life Is Cool!';
 
 const Indicator = GObject.registerClass(
     class Indicator extends PanelMenu.Button {
