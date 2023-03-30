@@ -43,6 +43,17 @@ apt install gettext
 
 ![preference menu](resources/preference.png)
 
+## Testing
+Running a Nested GNOME Shell - https://gjs.guide/extensions/development/debugging.html#reloading-extensions
+<details>
+The most convenient way to test incremental changes, especially for Wayland users, is by running a nested instance of GNOME Shell. Running the following command from a terminal will start a new gnome-shell process, with its own D-Bus session:
+</details>
+
+```bash
+dbus-run-session -- gnome-shell --nested --wayland
+```
+Now, you can checkout the extension installed or enable it from Extension Manager.
+
 
 
 
