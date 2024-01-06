@@ -2,9 +2,7 @@
   "name": "Show Me The Text",
   "description": "Shows desired text on the right side of the top bar ;-)",
   "shell-version": [
-    "42",
-    "43",
-    "44"
+    "45"
   ],
   "settings-schema": "org.gnome.shell.extensions.showmethetext",
   "url": "https://github.com/Guleri24/show-me-the-text",

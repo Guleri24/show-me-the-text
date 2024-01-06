@@ -18,16 +18,17 @@
 
 /* exported init */
 
+import GObject from 'gi://GObject';
+import Gio from 'gi://Gio';
+import St from 'gi://St';
+import Clutter from 'gi://Clutter';
 
-const {Clutter, Gio, GObject, St} = imports.gi;
+import {Extension, gettext as _} from 'resource:///org/gnome/shell/extensions/extension.js';
+import * as Main from 'resource:///org/gnome/shell/ui/main.js';
+import * as PanelMenu from 'resource:///org/gnome/shell/ui/panelMenu.js';
 
-const ExtensionUtils = imports.misc.extensionUtils;
-const Me = ExtensionUtils.getCurrentExtension();
-const Main = imports.ui.main;
-const PanelMenu = imports.ui.panelMenu;
-
-TEXT = 'Live Longer If You Can!';
-ALT_TEXT = 'Life Is Cool!';
+let TEXT = 'Live Longer If You Can!';
+let ALT_TEXT = 'Life Is Cool!';
 
 const Indicator = GObject.registerClass(
     class Indicator extends PanelMenu.Button {
@@ -62,7 +63,7 @@ const Indicator = GObject.registerClass(
         }
     });
 
-class Extension {
+export default class MyExtension extends Extension{
     constructor() {
         this._indicator = null;
     }
@@ -78,7 +79,7 @@ class Extension {
 
     enable() {
 
-        this._settings = ExtensionUtils.getSettings('org.gnome.shell.extensions.showmethetext');
+        this._settings = this.getSettings('org.gnome.shell.extensions.showmethetext');
 
         let text = `${Me.metadata.name} Text`;
 
@@ -104,6 +105,6 @@ class Extension {
 }
 
 function init(meta) {
-    return new Extension();
+    return new MyExtension();
 }
 
